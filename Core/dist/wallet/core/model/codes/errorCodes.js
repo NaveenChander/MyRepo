@@ -1,0 +1,38 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+// detailed internal codes to be used throughout the system
+var ErrorCodes;
+(function (ErrorCodes) {
+    ErrorCodes["OK"] = "Success";
+    ErrorCodes["invalidWalletAccountParameters"] = "Invalid wallet account parameters.";
+    ErrorCodes["invalidBalanceInquiryResultParameters"] = "Invalid Balance Inquiry parameters.";
+    ErrorCodes["invalidDatabaseResultLength"] = "Invalid result length for a database query.";
+    ErrorCodes["invalidDatabaseConnection"] = "Invalid database connection.";
+    ErrorCodes["needNewCode"] = "Placholder Code";
+    ErrorCodes["insuffientfunds"] = "Balance is less than the amount requested";
+    ErrorCodes["limitExceded"] = "Cash limit exceded";
+    ErrorCodes["invalidTranscationType"] = "Transcation type is not defined";
+    ErrorCodes["invalidTenantId"] = "TenantId is not defined properly ";
+    ErrorCodes["invalidExternalpatronId"] = "External patron id is not defined properly";
+    ErrorCodes["invalidAmount"] = "Amount is negative or zero";
+    ErrorCodes["databaseTimeout"] = "Database timed out.";
+    ErrorCodes["unknown"] = "An unknown error occured";
+    ErrorCodes["invalidWalletAccountOrTenantIdMismatch"] = "The wallet was either not found or the tenant ID didn't match";
+    ErrorCodes["apiKeyNotFoundOrTenantIdMismatch"] = "No api key was found, or Tenant ID didn't match";
+    ErrorCodes["invalidDatabaseCredentials"] = "Database credentials not accepted.";
+    ErrorCodes["invalidPermission"] = "Permission not granted.";
+    ErrorCodes["invalidSecretKeyOrTenantIdMismatch"] = "The Secret key is either not found or the tenant ID didn't match";
+    ErrorCodes["invalidWalletWithIdMismatch"] = "The wallet was either not found or the tenant ID & Everipatronid didn't match";
+    ErrorCodes["invalidAccountWithIdMismatch"] = "The account was either not found or the tenant ID & Everipatronid didn't match";
+    ErrorCodes["invalidAdaptorWithIdMismatch"] = "The Adapter Config was either not found or the tenant ID & Account ID didn't match";
+    ErrorCodes["failedWalletCreation"] = "Wallet creation failed";
+    ErrorCodes["failedAccountCreation"] = "Wallet Account creation failed";
+    ErrorCodes["invalidAuthorizationTokenParams"] = "The Authorization Token Class had invalid params";
+    ErrorCodes["invalidBankAccountParams"] = "The Bank Account Class had invalid params";
+    ErrorCodes["invalidcreditCardParams"] = "The Credit Card Class had invalid params";
+    ErrorCodes["invalidAddCardRequestParams"] = "The Add Card Request had invalid params";
+    ErrorCodes["invalidAddACHRequestParams"] = "The Add ACH Request had invalid params";
+    ErrorCodes["invalidListCardsRequestParams"] = "The List Cards Request had invalid params";
+    ErrorCodes["invalidListBankAccountsRequestParams"] = "The Bank Accounts Request had invalid params";
+    ErrorCodes["invalidLoadWalletRequestParams"] = "The Load Wallet Request had invalid params";
+})(ErrorCodes = exports.ErrorCodes || (exports.ErrorCodes = {}));
