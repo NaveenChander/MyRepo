@@ -1,0 +1,29 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended",
+        "tslint-eslint-rules"
+    ],
+    "jsRules": {},
+    "linterOptions": {
+        "exclude" : [
+            "*.json"
+        ]
+    },
+    "rules": {
+        "no-console": false,    // disallows console logs
+        "interface-name":false, // forces naming conventions for interfaces
+        "object-literal-sort-keys": false,  // forces alphabetical sorting for objects
+        "ordered-imports": false, // forces alphabetical ordering  for imports
+        "quotemark": [true, "single", "avoid-escape"],   // quotation mark standard.
+        "max-line-length": [true, {"limit":80, "ignore-pattern": "^import |^export"}], // line length, excludes imports/exports
+        "curly": [true, "ignore-same-line"], // forces braces with certain types of statements
+        "one-line":[false], // This forces { to be on the same line as certain statments, brace-style does the opposite
+        "brace-style": [true, "allman", { // forces styling for braces
+            "allowSingleLine": true
+        }],
+        "indent": [true, "spaces", 4], // forces indents
+        "align" : [true]
+    },
+    "rulesDirectory": []
+}

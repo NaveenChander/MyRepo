@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "lib": ["es7"],
+      "allowJs": true, 
+      "outDir": "./dist",
+      "rootDir": "./src",                      
+      "types" :[
+        "node"
+      ],
+      "typeRoots": [
+        "node_modules/@types"
+      ],
+      "importHelpers": true, 
+      "noImplicitAny": true,
+      "moduleResolution": "node"
+    },
+    "exclude": [
+      
+    ],
+    "include": [
+      "src",
+    ],
+    "files": [
+      "types.d.ts"
+    ]
+  }

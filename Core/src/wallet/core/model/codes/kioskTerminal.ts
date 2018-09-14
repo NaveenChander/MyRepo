@@ -1,0 +1,15 @@
+export enum KioskTerminalCodes {
+    AuthenticatePatron = 'C000',
+    AuthenticationPatronCheckEnrollment = 'C001',
+    CalculateFeeRequest = 'C002',
+    AuthorizationRequest = 'C003',
+    AdjustmentRequest = 'C004',
+    DownloadConfiguration = 'C005',
+    EmailReceipt = 'C006',
+    CompletionRequest = 'C007',
+    ATMTransactionPayoutAndDenominationInfo = 'C008',
+    GetGamingLimitRequest = 'C009',
+    GetGamingLimitRequestWithCode3andCode4ResponseForPrintingReceipt = 'C010',
+    GetPendingStagedTransactionsUsingToken = 'C011',
+    PendingStagedTransactionsCompletion = 'C012',
+}

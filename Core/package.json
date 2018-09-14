@@ -1,0 +1,49 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/wallet/api/standard/standardServer.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "jsontoxml": "^1.0.0",
+    "knex": "^0.13.0",
+    "koa": "^2.5.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-respond": "^1.0.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "mssql": "3.3.0",
+    "npm": "^6.4.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "signature": "file:../../Modules/Authentication/signature",
+    "xmljson": "^0.2.0"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^3.1.43",
+    "@types/gulp": "^4.0.5",
+    "@types/jasmine": "^2.8.8",
+    "@types/knex": "^0.14.21",
+    "@types/koa-bodyparser": "^5.0.1",
+    "@types/koa-router": "^7.0.31",
+    "@types/node": "^10.5.3",
+    "@types/request-promise": "^4.1.42",
+    "@types/sinon": "^5.0.2",
+    "gulp": "^3.9.1",
+    "gulp-jasmine": "^4.0.0",
+    "jasmine": "^3.2.0",
+    "jasmine-console-reporter": "^3.1.0",
+    "jasmine-ts": "^0.2.1",
+    "sinon": "^6.2.0",
+    "ts-node": "^7.0.1",
+    "tslib": "^1.9.3",
+    "tslint": "^5.11.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^2.9.2"
+  }
+}
