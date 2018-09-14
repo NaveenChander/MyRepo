@@ -1,3 +1,2 @@
 # Ignores the TS builds
-dist/
 package-lock.json
